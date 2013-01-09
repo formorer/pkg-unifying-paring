@@ -1,0 +1,12 @@
+Source: unifying-paring
+Section: admin
+Priority: extra
+Maintainer: Alexander Wirt <formorer@debian.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.3
+
+Package: unifying-paring
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: pairing tool for Logitch Unifying Receivers
+ This tool can be used to get Logitech Unifying Receiver into paring mode.
